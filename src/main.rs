@@ -11,7 +11,7 @@ async fn main() -> WebDriverResult<()> {
 
     let mut majors: Vec<Major> = vec![];
 
-    // Navigate to https://wikipedia.org.
+    // Navigate to netsat score list.
     driver
         .goto("https://apply.kku.ac.th/programsearch67/programlist.php")
         .await?;
